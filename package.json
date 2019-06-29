@@ -13,7 +13,7 @@
   "author": "Vamsee Mohan Kamabathula <vamsee.mohan@gmail.com>",
   "license": "MIT",
   "files": [
-    "./dist/**/*"
+    "dist/**/*", "tsconfig.json"
   ],
   "devDependencies": {
     "typescript": "^3.5.2"
