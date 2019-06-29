@@ -1,0 +1,14 @@
+{
+  "name": "module1",
+  "version": "1.0.0",
+  "description": "Demo module to test typescript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vamsee Mohan Kamabathula <vamsee.mohan@gmail.com>",
+  "license": "MIT",
+  "files": ["./dist/**/*"]
+}
