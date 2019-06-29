@@ -6,12 +6,11 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build",
-    "preinstall": "npm run build",
+    "prepare": "echo \"Building package\" && npm run build",
     "build": "tsc"
   },
   "keywords": [],
   "author": "Vamsee Mohan Kamabathula <vamsee.mohan@gmail.com>",
   "license": "MIT",
-  "files": ["./dist/**/*", "tsconfig.json", "src/**/*"]
+  "files": ["./dist/**/*"]
 }
