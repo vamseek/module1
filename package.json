@@ -13,5 +13,5 @@
   "keywords": [],
   "author": "Vamsee Mohan Kamabathula <vamsee.mohan@gmail.com>",
   "license": "MIT",
-  "files": ["./dist/**/*", "tsconfig.json"]
+  "files": ["./dist/**/*", "tsconfig.json", "src/**/*"]
 }
