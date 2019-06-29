@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "echo \"Building package\" && npm run build",
-    "preinstall": "echo \"Building package (preinstall)\" && npm run build",
+    "preinstall": "npm run build",
     "build": "tsc"
   },
   "keywords": [],
